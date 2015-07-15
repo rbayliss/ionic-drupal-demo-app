@@ -1,0 +1,14 @@
+<ion-view view-title="{{ category.name[0].value }}">
+  <ion-content>
+    <!-- HTML structure provided by ionic-->
+    <div class="list">
+      <!-- ng-repeat is angular's way of looping through lists-->
+      <a class="item"
+         href="#/articles/{{article.nid[0].value}}"
+         ng-repeat="article in articles">
+
+        {{article.title[0].value}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

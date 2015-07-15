@@ -1,0 +1,14 @@
+<ion-view>
+  <ion-nav-title>
+    {{article.title[0].value}}
+  </ion-nav-title>
+  <ion-content>
+
+    <div class="list card">
+      <div class="item item-image">
+        <img ng-src="{{ image._links.self.href }}" />
+      </div>
+      <div class="item item-body" ng-bind-html="article.body[0].value"></div>
+    </div>
+  </ion-content>
+</ion-view>
