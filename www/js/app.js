@@ -21,6 +21,8 @@ angular.module('starter', [
     }
   });
 })
+// Use a value for this to avoid hardcoding it inside the app.
+.value('backend', 'http://localhost/d8appdev/backend')
 
 .config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.state('app', {
