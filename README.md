@@ -1,7 +1,7 @@
-Ionic Framework Sample App
-==========================
+Ionic Drupal Demo - Frontend
+============================
 
-This application is a very simple demo of how easy it is to get a mobile app backed by Drupal up and running.
+This is a demo showing how you might integrate Drupal 8 and the Ionic Framework to build a very simple mobile app.
 
 This is the front end of the application.  It uses the [Ionic Framework](http://ionicframework.com/), which brings in turn leverages [Apache Cordova](https://cordova.apache.org/) and [AngularJS](https://angularjs.org/).
 

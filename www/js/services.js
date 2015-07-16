@@ -8,7 +8,7 @@ angular.module('starter.services', [
     }, {
       'query': {
         method: 'GET',
-        url: backend + '/categories',
+        url: backend + '/api/categories',
         isArray: true
       }
     });
@@ -19,7 +19,7 @@ angular.module('starter.services', [
     }, {
       'query': {
         method: 'GET',
-        url: 'http://localhost/d8appdev/backend/categories/:tid',
+        url: backend + '/api/categories/:tid',
         isArray: true
       }
     });
