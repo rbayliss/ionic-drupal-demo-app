@@ -1,4 +1,4 @@
-var controllers = angular.module('starter.controllers', [])
+var controllers = angular.module('TallTails.controllers', [])
 
 /**
  * /app
