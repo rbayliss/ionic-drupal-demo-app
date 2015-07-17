@@ -3,9 +3,12 @@
   <!-- Angular directive that wraps the "main content" of the screen-->
 
   <ion-content class="app-bg">
-    <img src="img/talltails.png" class="full-image" />
+    <!-- logo variable is replaced based on what we set in the controller. -->
+    <img src="{{logo}}" class="full-image" />
+
     <div class="padding text-center">
       <!-- Normal link to the categories page.-->
+      <!-- Hash links are handled by angular -->
       <a class="button button-positive button-block" href="#/categories">Categories</a>
     </div>
   </ion-content>
